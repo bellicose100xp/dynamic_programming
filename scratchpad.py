@@ -1,6 +1,7 @@
-a = (1,1)
-b = (2,1)
+my_list: list[int] = [1, 2, 3]
+print([*my_list, 4, 5])
 
-c = a + b
 
-c
+memo = {1:1}
+
+print(memo == {})
