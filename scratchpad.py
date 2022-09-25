@@ -1,7 +1,8 @@
-my_list: list[int] = [1, 2, 3]
-print([*my_list, 4, 5])
+s = "quick"
+p = "qu"
+q = "ui"
 
-
-memo = {1:1}
-
-print(memo == {})
+s.startswith(p)  # ?
+s.startswith(q)  # ?
+l = len(p)  # ?
+s[l:] #?
