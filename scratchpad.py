@@ -1,8 +1,4 @@
-s = "quick"
-p = "qu"
-q = "ui"
+arr: list[int] = []
 
-s.startswith(p)  # ?
-s.startswith(q)  # ?
-l = len(p)  # ?
-s[l:] #?
+for i in arr:
+    print(i) #? 
